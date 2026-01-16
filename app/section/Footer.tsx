@@ -17,7 +17,8 @@ const Footer = () => {
             logic, data, and action.
           </p>
           <div className="text-[11px] text-neutral-300 font-semibold uppercase tracking-widest">
-            &copy; 2024 Orbita Inc. • SF/NYC
+            {/* copyright */}© {new Date().getFullYear()} ORBITA Inc. All rights
+            reserved
           </div>
         </div>
 
